@@ -59,3 +59,12 @@ reproduce the same hash from the same data independently.
 This repo contains no information about Vesign's model, methodology,
 performance, or signal contents. It is purely a cryptographic timestamp
 mechanism — a hash is all that is ever committed here before launch.
+
+## Attestation gap: 2026-09-05 to 2026-10-06
+
+The production server was taken offline on 2026-09-05 and restored on
+2026-10-08. No signals were generated during that period, so no
+attestations exist for those dates. The chain resumes at 2026-10-07.
+
+Price and signal data for the gap period was backfilled after the
+restore and is therefore NOT covered by same-day attestation.
